@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Fondo degradado oscuro */
+    color: #e0e0e0; /* Texto claro */
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Títulos */
+h2, h3 {
+    text-align: center;
+    color: #00f7ff; /* Color azul brillante */
+    font-family: 'Orbitron', sans-serif; /* Tipografía futurista */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Input de tarea */
+#taskInput {
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 50px;
+    background: #1e2a34;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease;
+}
+
+#taskInput::placeholder {
+    color: #a0a0a0;
+}
+
+#taskInput:focus {
+    background: #2c3e50;
+}
+
+/* Botón para agregar tarea */
+button {
+    padding: 15px 25px;
+    background-color: #00f7ff; /* Azul brillante */
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0099cc;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+/* Lista de tareas*
