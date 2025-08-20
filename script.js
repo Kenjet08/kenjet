@@ -51,4 +51,5 @@ function displayTasks() {
         li.appendChild(deleteBtn);
         taskList.appendChild(li);
     });
+
 }
